@@ -1,0 +1,1 @@
+var app = angular.module("MarvelApp", ["ngResource", "ngRoute", "ngAnimate", "ngSanitize","ui.router", "ui.bootstrap"]);

@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<ul ng-if="characterList.length>0">
+    <li ng-repeat="item in characterList.data.results">
+        <a href="#">{{item.name}}</a>
+    </li>
+</ul>
